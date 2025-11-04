@@ -24,5 +24,3 @@ permissions:
 jobs:
   orchestrate:
     uses: twin-digital/pipeline-platform/.github/workflows/main.yml@develop
-    secrets:
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
